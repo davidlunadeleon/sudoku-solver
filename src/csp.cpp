@@ -165,6 +165,8 @@ void CSP::printCSP(bool prettyPrint) {
 			} else {
 				std::cout << '\n' << "-         -         -         -\n";
 			}
+		} else {
+			std::cout << '\n';
 		}
 	}
 }
